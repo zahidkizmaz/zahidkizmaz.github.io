@@ -1,0 +1,42 @@
+base_url = "https://zahidkizmaz.com"
+
+minify_html = true
+compile_sass = true
+generate_feed = true
+build_search_index = true
+full_content_in_feed = true
+
+theme = "tabi"
+title = "Zahid Kizmaz"
+default_language = "en"
+
+[markdown]
+render_emoji = true
+highlight_code = true
+highlight_theme = "css"
+
+[extra]
+copy_button = false
+custom_subset = true
+default_theme = "dark"
+feed_icon = true
+footnote_backlinks = false
+katex = false
+quick_navigation_buttons = true
+show_reading_time = false
+skin = "indigo_ingot"
+theme_switcher = false
+
+menu = [
+  { name = "about", url = "about", trailing_slash = true },
+  { name = "blog", url = "blog", trailing_slash = true },
+]
+
+footer_menu = [
+  { name = "about", url = "about", trailing_slash = true },
+  { name = "blog", url = "blog", trailing_slash = true },
+]
+
+socials = [
+  { name = "github", url = "https://github.com/zahidkizmaz/", icon = "github" },
+]
