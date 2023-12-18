@@ -1,4 +1,4 @@
-base_url = "https://zahidkizmaz.com"
+base_url = "https://zahidkizmaz.github.io"
 
 minify_html = true
 compile_sass = true
@@ -9,11 +9,13 @@ full_content_in_feed = true
 theme = "tabi"
 title = "Zahid Kizmaz"
 default_language = "en"
+favicon_emoji = "🏂"
 
 [markdown]
 render_emoji = true
 highlight_code = true
 highlight_theme = "css"
+external_links_target_blank = true
 
 [extra]
 copy_button = false
@@ -24,19 +26,20 @@ footnote_backlinks = false
 katex = false
 quick_navigation_buttons = true
 show_reading_time = false
-skin = "indigo_ingot"
+skin = "teal"
 theme_switcher = false
 
 menu = [
-  { name = "about", url = "about", trailing_slash = true },
   { name = "blog", url = "blog", trailing_slash = true },
+  { name = "about", url = "about", trailing_slash = true },
 ]
 
 footer_menu = [
-  { name = "about", url = "about", trailing_slash = true },
   { name = "blog", url = "blog", trailing_slash = true },
+  { name = "about", url = "about", trailing_slash = true },
 ]
 
 socials = [
   { name = "github", url = "https://github.com/zahidkizmaz/", icon = "github" },
+  { name = "linkedin", url = "https://linkedin.com/in/zahidkizmaz", icon = "linkedin" },
 ]
