@@ -4,7 +4,6 @@ minify_html = true
 compile_sass = true
 generate_feed = true
 build_search_index = true
-full_content_in_feed = true
 
 theme = "tabi"
 title = "Zahid Kizmaz"
@@ -28,6 +27,7 @@ quick_navigation_buttons = true
 show_reading_time = false
 skin = "teal"
 theme_switcher = false
+full_content_in_feed = true
 
 menu = [
   { name = "blog", url = "blog", trailing_slash = true },
