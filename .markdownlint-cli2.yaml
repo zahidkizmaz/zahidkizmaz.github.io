@@ -1,0 +1,6 @@
+---
+config:
+  # MD013 - line-length
+  line_length:
+    line_length: 120
+    tables: false

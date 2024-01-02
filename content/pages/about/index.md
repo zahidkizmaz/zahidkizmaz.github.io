@@ -9,10 +9,9 @@ hide_from_feed = true
 
 Hey :wave:
 
-
 My name is Zahid Kizmaz and I am a software engineer based in Berlin.
 
-#### Technologies I use:
+#### Technologies I use
 
 - Python
 - Django
@@ -20,14 +19,14 @@ My name is Zahid Kizmaz and I am a software engineer based in Berlin.
 - DRF
 - PostgreSQL
 
-#### I am interested in:
+#### I am interested in
 
 - Espresso
 - Basketball
 - Neovim
 - Split keyboards: currently using [sweep](https://github.com/davidphilipbarr/Sweep)
 
-#### You can find me on different platforms:
+#### You can find me on different platforms
 
 - Literal: [https://literal.club/zahid](https://literal.club/zahid)
 - Github: [https://github.com/zahidkizmaz](https://github.com/zahidkizmaz)
