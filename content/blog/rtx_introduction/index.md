@@ -2,7 +2,7 @@
 sort_by = "date"
 date = "2024-01-01"
 title = "rtx: The Secret Weapon for Streamlining Your Development Environments"
-description = "rtx allows you to manage multiple versions of programming languages amd directrory specific environments variables with a single binary."
+description = "rtx allows you to manage multiple versions of programming languages and directory specific environments variables with a single binary."
 +++
 
 ## Rtx: The Ultimate Tool for Managing Development Environments
