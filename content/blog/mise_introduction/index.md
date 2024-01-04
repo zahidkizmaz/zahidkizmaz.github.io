@@ -1,11 +1,12 @@
 +++
 sort_by = "date"
 date = "2024-01-01"
-title = "rtx: The Secret Weapon for Streamlining Your Development Environments"
-description = "rtx allows you to manage multiple versions of programming languages and directory specific environments variables with a single binary."
+updated = "2024-01-04"
+title = "mise: The Secret Weapon for Streamlining Your Development Environments"
+description = "mise allows you to manage multiple versions of programming languages and directory specific environments variables with a single binary."
 +++
 
-## Rtx: The Ultimate Tool for Managing Development Environments
+## mise: The Ultimate Tool for Managing Development Environments
 
 ---
 
@@ -13,23 +14,23 @@ Are you tired of juggling multiple development environments and
 struggling to keep track of different versions of programming languages?
 
 Look no further!
-I've got a game-changing tool that will revolutionize your workflow - [rtx](https://github.com/jdx/rtx).
+I've got a game-changing tool that will revolutionize your workflow - [mise](https://github.com/jdx/mise).
 This powerful, open-source tool simplifies the process of managing language installations,
 environment variables and more.
-With rtx, you can save time and effort, and improve productivity and consistency across teams.
+With mise, you can save time and effort, and improve productivity and consistency across teams.
 
-### What is [rtx](https://github.com/jdx/rtx)?
+### What is [mise](https://github.com/jdx/mise)?
 
-rtx is inspired from [asdf](https://asdf-vm.com/) and can benefit from asdf's vast plugin ecosystem.
+mise is inspired from [asdf](https://asdf-vm.com/) and can benefit from asdf's vast plugin ecosystem.
 It allows you to manage multiple versions of programming languages with a single binary and a simple shell setup.
 
 ### Talk is Cheap; Show Me the Code
 
 I won't bore you with installation details,
-but it's worth mentioning that rtx is dead simple to install and available in most common platforms.
-You can find installation instructions in the [documentation](https://github.com/jdx/rtx#installation).
+but it's worth mentioning that mise is dead simple to install and available in most common platforms.
+You can find installation instructions in the [documentation](https://mise.jdx.dev/getting-started.html).
 
-Per directory or project subdirectory, you can create a `.rtx.toml` file to define needs of your project. Here's an example:
+Per directory or project subdirectory, you can create a `.mise.toml` file to define needs of your project. Here's an example:
 
 ```toml
 [tools]
@@ -37,9 +38,9 @@ python = '3.11.7'
 ```
 
 This will automatically install Python 3.11.7 if it's not already installed and adjust the PATH variable accordingly,
-when you're in this directory or subdirectories, Python points to 3.11.7 which was installed by rtx.
+when you're in this directory or subdirectories, Python points to 3.11.7 which was installed by mise.
 
-But that's not all rtx can do with Python. It can also manage virtual environments.
+But that's not all mise can do with Python. It can also manage virtual environments.
 Here is an example:
 
 ```toml
@@ -70,7 +71,7 @@ node = '20'
 
 Now, when we enter this directory, DJANGO_SETTINGS will be set accordingly.
 This is very cool, but sometimes projects already have their .env files and I would not prefer to copy-paste these
-variable definitions again. Thankfully, we can just tell rtx to read variables from a file:
+variable definitions again. Thankfully, we can just tell mise to read variables from a file:
 
 ```toml
 [tools]
@@ -104,7 +105,7 @@ env_path = [
 ```bash
 mkdir tmp && cd tmp
 
-cat > .rtx.toml << EOL
+cat > .mise.toml << EOL
 [tools]
 python = {version='3.11.7', virtualenv='.venv/py3117'}
 EOL
@@ -116,7 +117,7 @@ which python
 tree -a -L 3 .
 # outputs this:
 .
-├── .rtx.toml
+├── .mise.toml
 └── .venv
     └── py3117
         ├── bin
@@ -127,6 +128,6 @@ tree -a -L 3 .
 
 ### Sum up
 
-rtx is an excellent tool for setting up development environments,
+mise is an excellent tool for setting up development environments,
 simplifying many things and changing the language version just by changing a number in the configuration.
 I highly recommend it to anyone looking to streamline their development workflow.
