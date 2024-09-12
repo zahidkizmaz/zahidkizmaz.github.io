@@ -4,6 +4,7 @@ base_url = "https://zahidkizmaz.github.io"
 minify_html = true
 compile_sass = true
 generate_feeds = true
+feed_filenames = ["rss.xml"]
 build_search_index = true
 
 theme = "tabi"
