@@ -3,7 +3,7 @@ base_url = "https://zahidkizmaz.github.io"
 
 minify_html = true
 compile_sass = true
-generate_feed = true
+generate_feeds = true
 build_search_index = true
 
 theme = "tabi"
