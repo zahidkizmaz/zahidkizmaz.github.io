@@ -32,16 +32,16 @@ theme_switcher = false
 full_content_in_feed = true
 
 menu = [
-  { name = "blog", url = "blog", trailing_slash = true },
-  { name = "about", url = "about", trailing_slash = true },
+    { name = "blog", url = "blog", trailing_slash = true },
+    { name = "about", url = "about", trailing_slash = true },
 ]
 
 footer_menu = [
-  { name = "blog", url = "blog", trailing_slash = true },
-  { name = "about", url = "about", trailing_slash = true },
+    { name = "blog", url = "blog", trailing_slash = true },
+    { name = "about", url = "about", trailing_slash = true },
 ]
 
 socials = [
-  { name = "github", url = "https://github.com/zahidkizmaz/", icon = "github" },
-  { name = "linkedin", url = "https://linkedin.com/in/zahidkizmaz", icon = "linkedin" },
+    { name = "github", url = "https://github.com/zahidkizmaz/", icon = "github" },
+    { name = "linkedin", url = "https://linkedin.com/in/zahidkizmaz", icon = "linkedin" },
 ]
