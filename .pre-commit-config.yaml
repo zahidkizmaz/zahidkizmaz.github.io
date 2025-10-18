@@ -1,7 +1,6 @@
----
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: v6.0.0
     hooks:
       - id: check-yaml
       - id: check-toml
@@ -11,11 +10,10 @@ repos:
       - id: check-added-large-files
       - id: check-vcs-permalinks
   - repo: https://github.com/DavidAnson/markdownlint-cli2
-    rev: v0.11.0
+    rev: v0.18.1
     hooks:
       - id: markdownlint-cli2
-      - id: markdownlint-cli2-fix
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.3.0
+    rev: v2.4.1
     hooks:
       - id: codespell
