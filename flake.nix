@@ -5,6 +5,10 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     flake-parts.url = "github:hercules-ci/flake-parts";
     self.submodules = true;
+    theme-tabi = {
+      url = "git+file:./themes/tabi/";
+      flake = false;
+    };
   };
 
   outputs =
