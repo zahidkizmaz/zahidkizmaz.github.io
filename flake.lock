@@ -52,7 +52,23 @@
     "root": {
       "inputs": {
         "flake-parts": "flake-parts",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "theme-tabi": "theme-tabi"
+      }
+    },
+    "theme-tabi": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1727444912,
+        "narHash": "sha256-cTZjPhoAcvgylS30yC1Nn7AxWToL+IHlsxUnCp0HpUk=",
+        "rev": "5b6cd61591fd959bcc95ce3a7dfecafb18b1fef8",
+        "revCount": 902,
+        "type": "git",
+        "url": "file:./themes/tabi/"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./themes/tabi/"
       }
     }
   },
